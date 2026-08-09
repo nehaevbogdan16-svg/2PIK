@@ -508,7 +508,7 @@ textarea {
     }
 
 
-/* ÕŒÃ≈– */
+/* √ç√é√å√Ö√ê */
 
 .member-number {
     color: var(--accent);
@@ -517,7 +517,7 @@ textarea {
 }
 
 
-/* ¿¬¿“¿– */
+/* √Ä√Ç√Ä√í√Ä√ê */
 
 .member-avatar {
     width: 70px;
@@ -534,7 +534,7 @@ textarea {
     }
 
 
-/* »Õ‘Œ–Ã¿÷»ﬂ */
+/* √à√ç√î√é√ê√å√Ä√ñ√à√ü */
 
 .member-nick {
     font-size: 18px;
@@ -568,7 +568,7 @@ textarea {
     }
 
 
-/* —“¿“”— */
+/* √ë√í√Ä√í√ì√ë */
 
 .member-status {
     display: flex;
@@ -590,7 +590,7 @@ textarea {
     }
 
 
-/* ÃŒ¡»À‹Õ€≈ */
+/* √å√é√Å√à√ã√ú√ç√õ√Ö */
 
 @media (max-width: 700px) {
 
@@ -632,4 +632,34 @@ textarea {
 
     .brand span {
         color: #fff;
-    }
+    }.news-cover {
+
+    height: 200px;
+
+    overflow: hidden;
+
+    background: #090a0d;
+
+}
+
+.news-cover img {
+
+    width: 100%;
+
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+
+}.news-cover img {
+
+    transition: transform 0.4s ease;
+
+}
+
+.card:hover .news-cover img {
+
+    transform: scale(1.05);
+
+}
